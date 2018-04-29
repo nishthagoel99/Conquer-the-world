@@ -1,0 +1,190 @@
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #042128;
+}
+li{
+	float: right;
+	font-size: 15px;
+}
+li:first-child{
+	float:left;
+	color:white;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	padding: 16px 8px;
+}
+li a{
+	text-decoration: none;
+	display: block;
+	word-spacing: 10px;
+	text-align: center;
+	padding: 16px 8px;
+	color: white;
+}
+li a:hover{
+	background-color: #0F0202;
+}
+div.header{
+	width: auto;
+}
+.section{
+	background-image: url("image2.jpg");
+	background-position: center;
+	opacity: 0.7;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	}
+h1{
+	position: absolute;
+	top: 300px;
+	left:70px;
+	margin-right: 8px;
+	word-spacing: 7px;
+	letter-spacing: 10px;
+	font-family: monospace;
+	font-size: 40px;
+	font-style: italic;
+}
+h2{
+	position: absolute;
+	top: 350px;
+	left:200px;
+	margin-right: 8px;
+	word-spacing: 7px;
+	letter-spacing: 10px;
+	font-family: monospace;
+	font-size: 40px;
+	font-style: italic;
+}
+.container{
+	display: inline;
+	height:100px;
+	margin-top: 20px;
+	width:100%;
+}
+.delhi{
+	position: relative;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+width:200px;
+height:200px;
+}
+.kashmir{
+	position: relative;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+width:200px;
+height:200px;
+}
+.kerela{
+	position: relative;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+width:200px;
+height:200px;
+}
+table{
+	margin-top: 25px;
+}
+.overlay{
+	position: absolute;
+	bottom:0;
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.5);
+	opacity: 0;
+	transition: 0.5 ease;
+	padding: 20px;
+	color:white;
+	text-align: center;
+}
+.delhi:hover .overlay{
+	opacity:1;
+}
+.kashmir:hover .overlay{
+	opacity: 1;
+}
+.kerela:hover .overlay{
+	opacity: 1;
+}
+
+p{
+	line-height: 1em;
+	height: 3em;
+	overflow: hidden;
+	text-align: justify;
+}
+.del{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+body{
+	background-color: #470E19;
+}
+.input{
+	margin-top: 10px;
+	padding: 5px;
+	display: inline-block;
+	height: 15px;
+}
+.dropbtn {
+    background-color:  #042128;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*
+	<p>Delhi is the place for the dilwalas. It is the capital of India for a reason. With a myriad of places to visit in Delhi, these destination attracts a lot of travellers from far and wide. From historical landmarks to swarmed shopping centres, from Mughal patio nurseries to Delhi University grounds, the capital city has numerous identities making it an attractive tourist destination in India. </p>
+	<button type="button" onclick="getElementById('content').style.height='auto'">Read More..</button>
+	#content{
+	position: absolute;
+	float:left;
+	word-spacing: auto;
+	margin-top: 15px;
+	margin-left:20px;
+	height: 100px;
+	width:200px;
+	*/
